@@ -1,6 +1,6 @@
 export default function Page(){
   return (
-    <div className="p-8">
+    <>
       <nav>
         <ul style={{ display:'flex', gap:'16px' }}>
           <li>Home</li>
@@ -12,6 +12,6 @@ export default function Page(){
       <div>
         <strong>Hello World</strong>
       </div>
-    </div>
+    </>
   )
 }
