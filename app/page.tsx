@@ -1,11 +1,19 @@
+import Link from "next/link";
+
 export default function Page(){
   return (
     <>
       <nav>
         <ul style={{ display:'flex', gap:'16px' }}>
-          <li>Home</li>
-          <li>List</li>
-          <li>About</li>
+          <li>
+            <Link href='/'>Home</Link>
+          </li>
+          <li>
+            <Link href='/kopi'>List</Link>
+          </li>
+          <li>
+            <Link href='/about'>About</Link>
+          </li>
         </ul>
         <hr />
       </nav>
